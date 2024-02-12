@@ -80,12 +80,7 @@ body {
     color: #404bbf;
 }
 
-.header-nav-list_link:active {
-    border-radius: 2px;
-        width: 48px;
-        height: 4px;
-        background: #404bbf;
-}
+
 
 .header-nav-list_link-studio {
     font-weight: 500;
@@ -99,7 +94,7 @@ body {
     color: #404bbf;
 }
 
-.header-nav-list_link-studio {
+.header-nav-list_link-studio:active {
     color: #404bbf;
 }
 
