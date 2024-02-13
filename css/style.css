@@ -58,7 +58,7 @@ body {
         color: #2e2f42;
 }
 
-.header-nav-list_link:hover
+.header-nav-list_link:hover,
 .header-nav-list_link:focus {
         color: #404bbf;
 }
@@ -71,8 +71,9 @@ body {
         color: #2e2f42;
 }
 
-.header-nav-list_link-studio:hover
-.header-nav-list_link-studio:focus {
+.header-nav-list_link-studio:hover,
+.header-nav-list_link-studio:focus,
+.header-nav-list_link-studio:active {
  color: #404bbf;
 }
 
@@ -86,7 +87,7 @@ body {
         font-style: normal
 }
 
-.header-nav-address_link:hover
+.header-nav-address_link:hover,
 .header-nav-address_link:focus {
     color: #404bbf;
 }
@@ -117,7 +118,7 @@ body {
         cursor: pointer;
 }
 
-.main-section_button:hover
+.main-section_button:hover,
 .main-section_button:focus
  {
 background-color: #404BBF
