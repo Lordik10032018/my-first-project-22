@@ -21,9 +21,6 @@ body {
     background-color: #ffffff;
 }
 
-.header {
-  
-}
 
 /* one-section */
 
@@ -65,12 +62,8 @@ body {
 
 
 
-.header-nav-list_link:hover {
+.header-nav-list_link:hover,:focus {
         color: #404bbf;
-}
-
-.header-nav-list_link:focus {
-    color: #404bbf;
 }
 
 .header-nav-list_link:active {
@@ -164,13 +157,35 @@ background-color: #404BBF
  }
 
  .section-fhree_main-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+        text-align: center;
  }
+
+.section-fhree_title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.section-fhree_text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+ 
 
  .section-fhree_link {
     
