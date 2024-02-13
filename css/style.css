@@ -130,9 +130,6 @@ body {
 background-color: #404BBF
 }
 
-.main-section_button:hover {
-        background: #404bbf;
-}
 
 /* two-section */
 
@@ -213,6 +210,6 @@ background-color: #404BBF
        
  }
 
- .section-fhree_foto {
-    
- }
+.footer-logo_studio {
+    color: #f4f4fd;
+}
