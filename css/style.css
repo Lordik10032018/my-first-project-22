@@ -80,7 +80,12 @@ body {
     color: #404bbf;
 }
 
-
+.header-nav-list_link:active {
+    border-radius: 2px;
+        width: 48px;
+        height: 4px;
+        background: #404bbf;
+}
 
 .header-nav-list_link-studio {
     font-weight: 500;
@@ -90,13 +95,6 @@ body {
         color: #2e2f42;
 }
 
-.header-nav-list_link-studio:hover {
-    color: #404bbf;
-}
-
-.header-nav-list_link-studio:active {
-    color: #404bbf;
-}
 
 .header-nav-address_link {
         font-weight: 400;
@@ -116,9 +114,10 @@ body {
 }
 
 .main-section_title {
+    font-family: "Roboto", "sans-serif";
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -126,6 +125,12 @@ body {
 }
 
 .main-section_button {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
     border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
