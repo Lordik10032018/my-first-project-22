@@ -84,7 +84,8 @@ body {
         font-style: normal
 }
 
-.header-nav-address_link:hover,:focus {
+.header-nav-address_link:hover
+.header-nav-address_link:focus {
     color: #404bbf;
 }
 
