@@ -45,7 +45,7 @@ body {
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #f4f4fd;
 }
 
 
@@ -98,7 +98,7 @@ body {
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
 }
 
 .main-section_title {
@@ -159,10 +159,10 @@ background-color: #404BBF
  .section-three {
     background: #f4f4fd;
  }
-
+/* main-title */
  .section-fhree_main-title {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -170,6 +170,7 @@ background-color: #404BBF
         text-align: center;
  }
 
+ /* text-title */
 .section-fhree_title {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
