@@ -58,7 +58,8 @@ body {
         color: #2e2f42;
 }
 
-.header-nav-list_link:hover,:focus {
+.header-nav-list_link:hover
+.header-nav-list_link:focus {
         color: #404bbf;
 }
 
@@ -70,7 +71,8 @@ body {
         color: #2e2f42;
 }
 
-.header-nav-list_link-studio:hover,:focus {
+.header-nav-list_link-studio:hover
+.header-nav-list_link-studio:focus {
  color: #404bbf;
 }
 
@@ -117,7 +119,6 @@ body {
 
 .main-section_button:hover
 .main-section_button:focus
-.main-section_button:active
  {
 background-color: #404BBF
 }
