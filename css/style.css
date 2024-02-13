@@ -51,11 +51,11 @@ body {
 
 
 .header-nav-list_link {
+    color: #2e2f42;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
 }
 
 .header-nav-list_link:hover,
@@ -79,11 +79,11 @@ body {
 
 
 .header-nav-address_link {
+    color: #434455;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
         font-style: normal
 }
 
