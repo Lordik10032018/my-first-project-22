@@ -153,14 +153,14 @@ background-color: #404BBF
     background: #f4f4fd;
  }
 /* main-title */
- .section-fhree_main-title {
+ .main-section_title {
      color: #2e2f42;
         font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-transform: capitalize;
         text-align: center;
+        text-transform: capitalize;
  }
 
  /* text-title */
