@@ -62,11 +62,6 @@ body {
         color: #404bbf;
 }
 
-.header-nav-list_link:active {
-   
-        background: #404bbf;
-}
-
 .header-nav-list_link-studio {
     font-weight: 500;
         font-size: 16px;
