@@ -5,7 +5,6 @@ ol {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -37,7 +36,6 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        text-transform: uppercase
 }
 
 .logo_studio {
@@ -99,6 +97,10 @@ body {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal
+}
+
 .main-section_title {
     font-family: "Roboto", "sans-serif";
         font-weight: 700;
@@ -120,7 +122,9 @@ body {
         background: #4d5ae5;
 }
 
-.main-section_button:hover {
+.main-section_button:hover
+.main-section_button:focus
+ {
 background-color: #404BBF
 }
 
