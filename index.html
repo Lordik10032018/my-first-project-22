@@ -6,20 +6,19 @@
     <title>My project</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
 </head>
 <body>
     
     <!-- header -->
+    <div class="container">
     <header class="header">
     
         <!-- nav -->
         
-        <nav>
+        <nav class="main-menu">
                 <a class="logo" href="./index.html">Web<span class="logo_studio">Studio</span></a>
             <ul class="header-nav-list">
                 <li><a class="header-nav-list_link" href="./index.html">Studio</a>
@@ -36,20 +35,24 @@
                 <li><a class="header-nav-address_link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
-        
     </header> 
+</div>
     <!-- one-section -->
+    
     <main>
     <section class="main-section">
-    
+        <div class="container">
+        
         <h1 class="main-section_title">Effective Solutions for Your Business</h1>
     
         <button class="main-section_button" type="button">Order Service</button>
+    </div>
     </section>
     
     <!-- two-section -->
+    <div class="container">
     <section>
-        <h2>Content</h2>
+        <h2 class="two-section-title">Content</h2>
         <ul class="section-two_list">
             <li class="section-two-list_link">
                 <h3 class="section-two-list-link_title">Strategy</h3>
@@ -73,12 +76,16 @@
             </li>
         </ul>
     </section>
-    
+    </div>
     <!-- three-section -->
+    
     <section class="section-three">
+        <div class="container">
         <h2 class="section_title">Our Team</h2>
+<div class="flex-container-three-section">
 
-       <ul>
+
+       <ul class="three-section-list">
 
         <li class="section-fhree_link">
    <img class="section-fhree_foto" src="./images/Comands/img1.jpg" alt="foto1">
@@ -104,57 +111,65 @@
              <p class="section-fhree_text">UI Designer</p>
          </li>
         </ul>
+        </div>
+        </div>
     </section>
 
     <!-- four-section -->
-    <section>
+    <div class="container">
+    <section class="four-section">
         <h2 class="section_title">Our Portfolio</h2>
 
-        <ul>
         
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto1.jpg" alt="foto1">
+           <ul class="flex-container-one">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto1.jpg" alt="foto1">
                 <h3 class="section-fhree_title">Banking App</h3>
                 <p class="section-fhree_text">App</p>
             </li>
         
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto2.jpg" alt="foto2">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto2.jpg" alt="foto2">
                 <h3 class="section-fhree_title">Cashless Payment</h3>
                 <p class="section-fhree_text">Marketing</p>
             </li>
         
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto3.jpg" alt="foto3">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto3.jpg" alt="foto3">
                 <h3 class="section-fhree_title">Meditation App</h3>
                 <p class="section-fhree_text">App</p>
             </li>
-        
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto4.jpg" alt="foto4">
+        </ul>
+        <ul class="flex-container-two">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto4.jpg" alt="foto4">
                 <h3 class="section-fhree_title">Taxi Service</h3>
                 <p class="section-fhree_text">Marketing</p>
             </li>
 
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto5.jpg" alt="foto4">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto5.jpg" alt="foto4">
                 <h3 class="section-fhree_title">Screen Illustrations</h3>
                 <p class="section-fhree_text">Design</p>
             </li>
 
-            <li class="section-fhree_link">
-                <img width="360" class="section-fhree_foto" src="./images/portfolio/foto6.jpg" alt="foto4">
+            <li class="section-four_link">
+                <img width="360" class="section-four_foto" src="./images/portfolio/foto6.jpg" alt="foto4">
                 <h3 class="section-fhree_title">Online Courses</h3>
-                <p class="section-fhree_text">Marketing</p>
+                <p class="section-four_text">Marketing</p>
             </li>
         </ul>
+        
     </section>
     </main>
+    </div>
     <!-- footer -->
+
     <footer class="footer">
-        <a class="logo" href="./index.html">Web<span class="footer-logo_studio">Studio</span></a>
+    <div class="container">
+        <a class="logo footer-logo" href="./index.html">Web<span class="footer-logo_studio">Studio</span></a>
         <p class="footer_text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-    </footer>
-    
+    </div>
+</footer>
 </body>
 </html>
