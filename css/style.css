@@ -101,7 +101,6 @@ margin: 0 auto;
 .main-menu {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 /* ul */
@@ -109,6 +108,7 @@ margin: 0 auto;
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding: 24px 0;
 }
 
 /* ul-link */
@@ -229,9 +229,12 @@ background-color: #404BBF
 
 
 /* two-section */
+.two-section {
+    padding: 120px 0;
+}
 
 .two-section-title {
-    display: none;
+    visibility: hidden;
 }
 
 /* ul */
