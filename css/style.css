@@ -348,14 +348,6 @@ width: calc((100% - 72px) / 4);
  .flex-container-one {
     display: flex;
     gap: 24px;
-    margin-bottom: 61px;
-    flex-wrap: wrap;
- }
-
- /* container-two */
- .flex-container-two {
-    display: flex;
-    gap: 24px;
     flex-wrap: wrap;
  }
 
@@ -364,6 +356,7 @@ width: calc((100% - 72px) / 4);
 .four-section-name {
 padding: 32px 16px;
 border-top: none;
+border: 1px solid #e7e9fc;
 }
 
  /* link */
