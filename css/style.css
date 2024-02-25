@@ -395,7 +395,7 @@ width: calc((100% - 72px) / 4);
 
  /* logo */
  .footer-logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
  }
  
