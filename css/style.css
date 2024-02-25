@@ -228,7 +228,9 @@ background-color: #404BBF
     padding: 120px 0;
 }
 
-.two-section-title {
+
+
+.visually-hidden {
     visibility: hidden;
 }
 
