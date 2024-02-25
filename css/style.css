@@ -112,6 +112,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 /* link-effects */
@@ -349,6 +350,8 @@ width: calc((100% - 72px) / 4);
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
+    border-top: none;
  }
 
 
