@@ -373,9 +373,18 @@ border: 1px solid #e7e9fc;
 margin-bottom: 48px;
 }
 
-.two {
+.one:nth-child(4) {
 margin-bottom: none;
 }
+
+.one:nth-child(5) {
+    margin-bottom: none;
+}
+
+.one:nth-child(6) {
+    margin-bottom: none;
+}
+
  /* foto */
  .section-four_foto {
     width: 360px;
