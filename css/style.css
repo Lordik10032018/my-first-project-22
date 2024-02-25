@@ -345,22 +345,14 @@ width: calc((100% - 72px) / 4);
     padding: 120px 0;
  }
 
- /* container-one */
+ /* ul */
  .flex-container-one {
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
-    row-gap: 48px;
     border-top: none;
+    column-gap: 24px;
  }
 
-
-/* container-link */
-.four-section-name {
-padding: 32px 16px;
-border-top: none;
-border: 1px solid #e7e9fc;
-}
 
  /* link */
  .section-four_link {
@@ -369,6 +361,21 @@ border: 1px solid #e7e9fc;
         width: calc((100% - 48px) / 3);
  }
 
+/* Блок имя фамилия */
+.four-section-name {
+padding: 32px 16px;
+border-top: none;
+border: 1px solid #e7e9fc;
+}
+
+/* теги для горизонт.отступов */
+.one {
+margin-bottom: 48px;
+}
+
+.two {
+margin-bottom: none;
+}
  /* foto */
  .section-four_foto {
     width: 360px;
