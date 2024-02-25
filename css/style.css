@@ -348,6 +348,7 @@ width: calc((100% - 72px) / 4);
  /* ul */
  .flex-container-one {
     display: flex;
+    row-gap: 48px;
     flex-wrap: wrap;
     column-gap: 24px;
  }
@@ -373,7 +374,8 @@ margin-bottom: 48px;
 }
 
 .two {
-margin-bottom: none;}
+margin-bottom: none;
+}
 
  /* foto */
  .section-four_foto {
