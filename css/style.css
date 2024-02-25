@@ -50,13 +50,7 @@ img {
     
 }
 
-/* container */
-.container {
-padding: 120px 0;
-margin-left: 0px ;
-margin-right:0px;
-margin: 0 auto;
-}
+
 
 
 /* header */
@@ -278,8 +272,7 @@ padding: 120px 0;
 
  /* container */
  .flex-container-three-section {
-    display: flex;
-    justify-content: center;
+    
 }
 
 /* ul */
@@ -287,6 +280,7 @@ padding: 120px 0;
     display: flex; 
     gap: 24px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
     
 /* link */
