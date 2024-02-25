@@ -232,6 +232,11 @@ background-color: #404BBF
     visibility: hidden;
 }
 
+.two-section-title {
+visibility: hidden;
+}
+
+
 /* ul */
 .section-two_list {
     display: flex;
