@@ -359,6 +359,7 @@ width: calc((100% - 72px) / 4);
     background: #fff;
     border-bottom: 1px solid #e7e9fc;
         width: calc((100% - 48px) / 3);
+        border-top: none;
  }
 
 /* Блок имя фамилия */
