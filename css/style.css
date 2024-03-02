@@ -244,7 +244,7 @@ height: 56px;
 /* button-effects */
 .main-section_button:hover,
 .main-section_button:focus
- {
+ { 
 background-color: #404BBF
 }
 
@@ -255,7 +255,7 @@ background-color: #404BBF
 }
 
 .two-section-icon {
-    fill: #4d5ae5;
+    
 }
 .two-section-title {
 position: absolute;
