@@ -111,38 +111,21 @@ display: flex;
 }
 
 /* ul-link */
-.header-nav-list_link {
-    content: '';
-display: block;
-    color: #2e2f42;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        padding: 24px 0;
 
-}
- 
 .header-nav-list_link-icon {
-   position: relative;
-   
+    position: relative;
 }
 
-.header-nav-list_link-icon:hover::after {
-    content: '';
-    display: block;
+.header-nav-list_link-icon::after {
+    content: "";
     position: absolute;
-    top: 69px;
-    width: 48px;
-    height: 4px;
+    left: 0;
+    bottom: -1px;
     border-radius: 2px;
-        background-color: #404bbf;
+    background-color: #404bbf;
+    width: 100%;
+    height: 4px;
 } 
-/* link-effects */
-.header-nav-list_link:hover,
-.header-nav-list_link:focus {
-        color: #404bbf;
-}
 
 .header-nav-list_link-studio {
     font-weight: 500;
@@ -151,6 +134,25 @@ display: block;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+
+
+.header-nav-list_link {
+display: block;
+    color: #2e2f42;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* link-effects */
+.header-nav-list_link:hover,
+.header-nav-list_link:focus {
+        color: #404bbf;
+}
+
 
 .header-nav-list_link-studio:hover,
 .header-nav-list_link-studio:focus,
@@ -184,6 +186,7 @@ display: block;
         letter-spacing: 0.02em;
         font-style: normal;
         padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* link-effects */
@@ -200,6 +203,8 @@ display: block;
         background: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
         padding: 188px 0;
+        max-width: 1440px;
+        margin: 0 auto;
 }
 
 /* title */
@@ -215,8 +220,6 @@ max-width: 496px;
         width: 496px;
         margin-left: auto;
         margin-right: auto;
-        
-        
 }
 
 /* button */
@@ -255,7 +258,15 @@ background-color: #404BBF
 }
 
 .two-section-icon {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
 }
 .two-section-title {
 position: absolute;
@@ -353,6 +364,8 @@ width: calc((100% - 72px) / 4);
        margin-bottom: 72px;
     }
     
+
+
 /* title */
 .section-fhree_title {
     color: #2e2f42;
@@ -373,9 +386,26 @@ width: calc((100% - 72px) / 4);
             letter-spacing: 0.02em;
             text-align: center;
             color: #434455;
-            
+            margin-bottom: 8px;
     }
 
+.section-fhree-container-icon {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+    .section-fhree-icon {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #4d5ae5;
+        align-items: center;
+        justify-content: center;
+        fill: #ffffff;
+        
+    }
 
 
  /* four-section  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !*/
@@ -435,12 +465,54 @@ border-top: none;
         color: #434455;
  }
 
+
+ .section-four-container-animation {
+position: relative;
+    overflow: hidden;
+ }
+
+.section-four_element-animation {
+position: absolute;
+top: 0;
+width:100% ;
+height: 100%;
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+background: #4d5ae5;
+color: #fff;
+transform: translateY(100%);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding-top: 40px;
+padding-right: 32px;
+padding-left: 32px;
+}
+
+.section-four-container-animation:hover .section-four_element-animation {
+    transform: translateY(0);
+}
+
+.section-four_element-animation-text {
+width: 296px;
+}
+
+
  /* footer ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ФУТЕР ! ! ! ! ! ! ! ! ! ! ! ! ! ! */
 
  .footer {
     background: #2e2f42;
     padding: 100px 0;
  }
+
+ .footer-container {
+    display: flex;
+    gap: 120px;
+
+ }
+ 
 
  /* logo */
  .footer-logo {
@@ -463,3 +535,13 @@ border-top: none;
         max-width: 264px;
        
  }
+
+.footer-icon-text {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-icon-list {
+    display: flex;
+    gap: 16px;
+}
