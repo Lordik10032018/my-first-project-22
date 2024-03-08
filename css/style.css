@@ -424,7 +424,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .section-fhree-icon-a:hover,
  .section-fhree-icon-a:focus{
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .section-fhree-icon-svg {
@@ -581,9 +581,4 @@ padding: 40px 32px;
 .section-fhree-icon-svg {
     width: 24px;
     height: 24px;
-}
-
-.section-fhree-icon-a:hover,
-.section-fhree-icon-a:focus {
-    background-color: #31d0aa;
 }
