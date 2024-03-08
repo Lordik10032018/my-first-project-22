@@ -532,10 +532,12 @@ padding: 40px 32px;
 
  .footer-container {
     display: flex;
-    gap: 120px;
-    align-items: center;
+    align-items: baseline;
  }
  
+ .footer-container-logo {
+    margin-right: 120px ;
+ }
 
  /* logo */
  .footer-logo {
