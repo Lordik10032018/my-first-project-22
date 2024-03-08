@@ -552,10 +552,10 @@ padding: 40px 32px;
 
  /* text */
  .footer_text {
-        font-weight: 500;
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        font-size: 16px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
@@ -565,6 +565,12 @@ padding: 40px 32px;
 .footer-icon-text {
     color: #fff;
     margin-bottom: 16px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
 }
 
 .footer-icon-list {
@@ -575,4 +581,9 @@ padding: 40px 32px;
 .section-fhree-icon-svg {
     width: 24px;
     height: 24px;
+}
+
+.section-fhree-icon-a:hover,
+.section-fhree-icon-a:focus {
+    background-color: #31d0aa;
 }
