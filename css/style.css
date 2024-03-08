@@ -406,8 +406,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 
     .section-fhree-icon {
+        width: 40px;
         display: flex;
-     width: 40px;
      height: 40px;
     }
 
@@ -419,12 +419,16 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    fill: #f4f4fd;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-fhree-icon-a:hover {
-    background-color:#31d0aa;
+.section-fhree-icon-a:hover,
+ .section-fhree-icon-a:focus{
+    background-color: #31d0aa;
+}
+
+.section-fhree-icon-svg {
+    fill: #f4f4fd;
 }
 
  /* four-section  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !*/
