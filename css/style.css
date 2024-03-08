@@ -552,9 +552,10 @@ padding: 40px 32px;
 
  /* text */
  .footer_text {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        font-size: 16px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
@@ -569,4 +570,9 @@ padding: 40px 32px;
 .footer-icon-list {
     display: flex;
     gap: 16px;
+}
+
+.section-fhree-icon-svg {
+    width: 24px;
+    height: 24px;
 }
