@@ -652,6 +652,7 @@ padding: 40px 32px;
         color: #fff;
 }
 
+
 .footer-form-button {
     display: flex;
     justify-content: center;
@@ -668,10 +669,12 @@ padding: 40px 32px;
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
-            gap: 15px;
             min-width: 165px;
 }
 
+.footer-form-button-text-span-svg {
+    margin-left: 16px;
+}
 /* Backdrop */
 
 .backdrop {
