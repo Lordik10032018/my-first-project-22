@@ -740,7 +740,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 .modal-form-input:focus {
     border: 1px solid rgba(46, 47, 66, 0.4);
-    border-color: #404BBF
+    border-color: #4D5AE5;
 }
 
 .modal-form-input:focus-within+.modal-form-svg {
