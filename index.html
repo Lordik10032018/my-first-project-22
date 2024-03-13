@@ -414,5 +414,64 @@
     
         </div>
     </footer>
+
+    <div class="backdrop is-open">
+        <div class="modal ">
+            <button type="button" class="modal-button">
+                <svg class="modal-svg" width="8" height="8">
+                    <use href="./images/icons.svg#icon-closet"></use>
+                </svg>
+            </button>
+            <p class="modal-title">
+                Leave your contacts and we will call you back
+            </p>
+            <!-- form -->
+            <form class="modal-form">
+                 <div class="modal-form-wrapper">
+                    <label class="modal-form-label" for="name">Name</label>
+                    <div class="modal-form-input-wrapper">
+                        <input id="name" class="modal-form-input" type="text" name="name" required> 
+                        <svg class="modal-form-svg" width="12" height="12">
+                            <use href="./images/icons.svg#icon-personal"></use>
+                        </svg>
+                </div>
+                 </div>
+
+                <div class="modal-form-wrapper">
+                    <label class="modal-form-label" for="phone">Phone</label>
+                    <div class="modal-form-input-wrapper">
+                        <input id="phone" class="modal-form-input" type="text" name="phone" required>
+                        <svg class="modal-form-svg" width="13" height="13">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                </div>
+                </div>
+                <div class="modal-form-wrapper">
+                    <label class="modal-form-label" for="email">Email</label>
+                    <div class="modal-form-input-wrapper">
+                        <input  id="email" class="modal-form-input" type="text" name="email" required>
+                        <svg class="modal-form-svg" width="16" height="12">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="modal-form-wrapper">
+                    <label class="modal-form-label" for="comment">Comment</label>
+                    <textarea placeholder="Text input" class="modal-form-texterea" name="comment" id="comment" required></textarea>
+                      
+                    
+                </div>
+
+                <div class="modal-form-checkbox-wrapper">
+                    <input value="true" id="checkbox" name="checkbox" class="modal-form-checkbox" type="checkbox" required>
+                    <label class="modal-form-label-checkbox" for="checkbox">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                </div>
+                <div class="modal-form-button-wrapper">
+                <button type="submit" class="modal-form-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
