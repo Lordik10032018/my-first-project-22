@@ -252,7 +252,7 @@ input:focus {
     
     
     
-        .mobile-menu-backdrop.is-opens {
+        .mobile-menu-backdrop.is-open {
             visibility: visible;
             opacity: 1;
         }
