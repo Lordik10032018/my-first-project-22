@@ -644,18 +644,7 @@ width: 285px;
             background: #f4f4fd;
             margin-bottom: 8px;
     }
-    .two-section-title {
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
+
     
     
     /* ul */
@@ -1159,7 +1148,7 @@ padding: 40px 32px;
         
     
 
-         /* ------------------------------------------------tablet-backdrop ------------------------------------------------------- */
+         /* ------------------------------------------------backdrop ------------------------------------------------------- */
 
          @media only screen and (min-width:768px) {
             .backdrop {
