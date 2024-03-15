@@ -42,7 +42,7 @@
     </header> 
  
 
-    <!-- one-section ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !-->
+       <!-- -----------------------------------------------------one section------------------------------------------------------------- -->
     
     <main>
     <section class="main-section">
@@ -54,8 +54,8 @@
     </div>
     </section>
     
-    <!-- two-section  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !-->
-    <!-- <section class="two-section">
+     <!-- -----------------------------------------------------two section------------------------------------------------------------- -->
+    <section class="two-section">
         <div class="container">
             <h2 class="visually-hidden">Content</h2>
         <ul class="section-two_list">
@@ -101,16 +101,21 @@
             </li>
         </ul>
     </div>
-    </section> -->
-    <!-- three-section ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! ! -->
+    </section>
+    <!-- -----------------------------------------------------three section------------------------------------------------------------- -->
     
-    <!-- <section class="section-three">
+    <section class="section-three">
         <div class="container">
         <h2 class="section_title">Our Team</h2>
        <ul class="three-section-list">
 
         <li class="section-fhree_link">
-   <img class="section-fhree_foto" src="./images/Comands/img1.jpg" alt="foto1">
+            <picture>
+                <source srcset="
+                ./images/Comands/img1.jpg 1x, ./images/Comands/img12x.jpg 2x " />
+                <img class="section-fhree_foto" src="./images/Comands/img1.jpg" alt="foto1">
+            </picture>
+            
   <div class="container-name">
     <h3 class="section-fhree_title">Mark Guerrero</h3>
    <p class="section-fhree_text">Product Designer</p>
@@ -149,7 +154,11 @@
 
        
          <li class="section-fhree_link">
-             <img class="section-fhree_foto" src="./images/Comands/img2.jpg" alt="foto2">
+            <picture>
+                <source srcset="./images/Comands/img2.jpg 1x, /images/Comands/img22x.jpg 2x ">  
+                <img class="section-fhree_foto"
+                src="./images/Comands/img2.jpg" alt="foto2">
+            </picture>
              <div class="container-name">
              <h3 class="section-fhree_title">Tom Ford</h3>
              <p class="section-fhree_text">Frontend Developer</p>
@@ -193,7 +202,12 @@
          </li>
 
          <li class="section-fhree_link">
-             <img class="section-fhree_foto" src="./images/Comands/img3.jpg" alt="foto3" >
+            <picture>
+                <source srcset="./images/Comands/img3.jpg 1x, ./images/Comands/img32x.jpg 2x ">  
+
+                
+                <img class="section-fhree_foto" src="./images/Comands/img3.jpg" alt="foto3" >
+            </picture>
              <div class="container-name">
              <h3 class="section-fhree_title">Camila Garcia</h3>
              <p class="section-fhree_text">Marketing</p>
@@ -234,10 +248,15 @@
          </li>
 
          <li class="section-fhree_link">
-             <img class="section-fhree_foto" src="./images/Comands/img4.jpg" alt="foto4">
-             <div class="container-name">
-             <h3 class="section-fhree_title">Daniel Wilson</h3>
-             <p class="section-fhree_text">UI Designer</p>
+            <picture>
+                <source srcset="./images/Comands/img4.jpg 1x, ./images/Comands/img42x.jpg 2x ">  
+
+                
+                <img class="section-fhree_foto" src="./images/Comands/img4.jpg" alt="foto4">
+            </picture>
+            <div class="container-name">
+                <h3 class="section-fhree_title">Daniel Wilson</h3>
+                <p class="section-fhree_text">UI Designer</p>
           
             <ul class="section-fhree-container-icon">
                 <li class="section-fhree-icon">
@@ -277,10 +296,10 @@
          </li>
         </ul>
         </div>
-    </section> -->
+    </section>
 
-    <!-- four-section  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !-->
-    <!-- <section class="four-section">
+      <!-- -----------------------------------------------------four section------------------------------------------------------------- -->
+    <section class="four-section">
         <div class="container">
         <h2 class="section_title">Our Portfolio</h2>
 
@@ -289,7 +308,16 @@
 
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto1.jpg" alt="foto1">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-1.jpg 1x, ./images/portfolio/portfolio-desktop-12x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-1.jpg 1x, ./images/portfolio/portfolio-tablet-12x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-1.jpg" alt="foto1">
+                    </picture>
                 <p class="section-four_element-animation">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                         Ecommerce App ·
@@ -304,7 +332,18 @@
         
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto2.jpg" alt="foto2">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-2.jpg 1x, ./images/portfolio/portfolio-desktop-22x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-2.jpg 1x, ./images/portfolio/portfolio-tablet-22x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-2.jpg" alt="foto1">
+                    </picture>
+                    
+        
                 <p class="section-four_element-animation">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                     Cloud Storage App
@@ -318,7 +357,17 @@
         
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto3.jpg" alt="foto3">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-3.jpg 1x, ./images/portfolio/portfolio-desktop-32x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-3.jpg 1x, ./images/portfolio/portfolio-tablet-32x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-3.jpg" alt="foto1">
+                    </picture>
+                
                 <p class="section-four_element-animation">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                         Ecommerce App ·
@@ -333,7 +382,17 @@
         
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto4.jpg" alt="foto4">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-4.jpg 1x, ./images/portfolio/portfolio-desktop-42x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-4.jpg 1x, ./images/portfolio/portfolio-tablet-42x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-4.jpg" alt="foto1">
+                    </picture>
+                
                 <p class="section-four_element-animation">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                         Ecommerce App ·
@@ -348,7 +407,17 @@
 
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto5.jpg" alt="foto4">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-5.jpg 1x, ./images/portfolio/portfolio-desktop-52x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-5.jpg 1x, ./images/portfolio/portfolio-tablet-52x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-5.jpg" alt="foto1">
+                    </picture>
+                
                 <p class="section-four_element-animation">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                         Ecommerce App ·
@@ -363,7 +432,17 @@
 
             <li class="section-four_link ">
                 <div class="section-four-container-animation">
-                <img width="360" class="section-four_foto" src="./images/portfolio/foto6.jpg" alt="foto4">
+                    <picture>
+                        <source srcset="./images/portfolio/portfolio-desktop-6.jpg 1x, ./images/portfolio/portfolio-desktop-62x.jpg 2x " 
+                        media="(min-width: 1158px)">
+
+                        <source srcset="./images/portfolio/portfolio-tablet-6.jpg 1x, ./images/portfolio/portfolio-tablet-32x.jpg 2x " 
+                        media="(min-width: 768px)">
+
+
+                        <img width="360" class="section-four_foto" src="./images/portfolio/portfolio-mobile-6.jpg" alt="foto1">
+                    </picture>
+                
 <p class="section-four_element-animation">
         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
         Ecommerce App ·
@@ -378,10 +457,10 @@
         </ul>
     </div>
     </section>
-    </main> -->
-    <!-- footer  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! СЕКЦИЯ ! ! ! ! ! ! ! ! ! ! ! ! ! !-->
+    </main>
+       <!-- -----------------------------------------------------footer------------------------------------------------------------- -->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
     <div class="container footer-container">
          <div class="footer-container-logo">
         <a class="logo footer-logo" href="./index.html">Web<span class="footer-logo_studio">Studio</span></a>
@@ -431,10 +510,10 @@
             </form>
         </div>
         </div>
-    </footer> -->
+    </footer>
 
-    <!-- Backdrop -->
-    <!-- <div class="backdrop ">
+       <!-- -----------------------------------------------------backdrop------------------------------------------------------------- -->
+    <div class="backdrop">
         <div class="modal ">
             <button type="button" class="modal-button">
                 <svg class="modal-svg" width="8" height="8">
@@ -443,9 +522,9 @@
             </button>
             <p class="modal-title">
                 Leave your contacts and we will call you back
-            </p> -->
-            <!-- form -->
-            <!-- <form class="modal-form">
+            </p> 
+            form
+             <form class="modal-form">
                  <div class="modal-form-wrapper">
                     <label class="modal-form-label" for="user-name">Name</label>
                     <div class="modal-form-input-wrapper">
@@ -494,7 +573,7 @@
                 
             </form>
         </div>
-    </div> -->
+    </div>
 
     <div class="mobile-menu-backdrop  ">
       <div class="container mobile-menu-container">
@@ -524,15 +603,15 @@
                 <use href="./images/icons.svg#icon-instagram-2"></use>
             </svg></a></li>
 
-            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg width="16" height="16">
+            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg class="section-fhree-icon-svg"  width="16" height="16">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
             </svg></a></li>
 
-            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg width="16" height="16">
+            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg class="section-fhree-icon-svg" width="16" height="16">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
             </svg></a></li>
 
-            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg width="16" height="16">
+            <li class="section-universal-icon"><a class="section-universal-icon-a" href="#"><svg class="section-fhree-icon-svg" width="16" height="16">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
             </svg></a></li>
         </ul>
